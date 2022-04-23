@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@800&family=Special+Elite&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Special Elite', cursive;
+    
+}
+/* ===========Generelles Styling=============== */
+h1 {
+    font-size: 8rem;
+    color: white;
+}
+
+h2, h3, h4 {
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+p {
+    line-height: 1.2rem;
+}
+
+/* ===========Header Styling=============== */
+
+nav {
+    width: 100%;
+    text-align: right;
+    position: fixed;
+  background-color: white;
+}
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+
+}
+header{
+     background: url("../img/bg.jpeg") no-repeat;
+     padding: 12rem 0;
+     background-size: cover;
+}
+
+/* ===========Hello Styling=============== */
+.hello {
+    background: url("../img/bridge_1.jpg") no-repeat;
+	background-attachment:fixed;
+    height: 900px;
+    background-size: 100vw;
+}
+#bg1 {
+    background: url("../img/beans_icon.png") no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 7rem;
+    background-color: white;
+}
+.hello p {
+    width: 32%;
+}
+
+/* ===========Menu Styling=============== */
+.menu {
+    text-align: center;
+    background: url("../img/bridge_2.jpg") no-repeat;
+	background-attachment:fixed;
+    height: 1200px;
+    background-size: 100vw;
+}
+.menu img {
+    width: 5rem;
+    height: 5rem;
+    margin-top: 2rem;
+margin-bottom: 0.5rem;
+}
+.menu div:not(:first-of-type) {
+    border: 1px solid;
+    width: 30%;
+    margin: auto;
+    padding: 1rem 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#bg2 {
+    background: url("../img/cake_icon.png") no-repeat;
+    background-size: contain;
+    background-color: white;
+    padding: 5rem;
+
+}
+/* ===========Story Styling=============== */
+.story {
+    background: url("../img/bridge_3.jpg") no-repeat;
+	background-attachment:fixed;
+    height: 700px;
+    background-size: 100vw;
+    margin: 7rem 0 0 0;
+
+}
+#bg3 {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5rem;
+
+}
+.story div{
+    display: inline-block;
+    width: 27%;
+    text-align: left;
+}
+.story img {
+    width: 17rem;
+    height: 12rem;
+    margin-left: 5rem;
+}
+/* ===========Catering Styling=============== */
+.Catering {
+    background: url("../img/bridge_4.jpeg");
+	background-attachment:fixed;
+    height: 800px;
+    background-size: 100vw;
+}
+#bg4 {
+    width: 100%;
+    text-align: center;
+    padding: 7rem 0 7rem 0;
+    background: url("../img/pie_icon.png") no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: white;
+}
+.Catering div{
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+}
+.Catering p {
+    display: inline-block;
+    margin: 0.5rem 15rem 0.5rem 0rem
+}
+.Catering img {
+    width: 17rem;
+    height: 12rem;
+    margin-left: 17rem;
+}
+.Catering a {
+    border: 1px solid;
+    padding: 3px 1.5px;
+    text-decoration: none;
+    color: black;
+}
+/* ===========Cakes Styling=============== */
+.Cakes {
+    text-align: center;
+    padding: 7rem 0;
+    background: url("../img/muffin_icon.png") no-repeat;
+    background-position: left;
+    background-size: contain;
+    background-color: white;
+}
+.Cakes div{
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    margin-left: 5rem;
+}
+.Cakes p {
+    display: inline-block;
+    margin: 0.5rem 15rem 0.5rem 0rem;
+}
+.Cakes img {
+    width: 17rem;
+    height: 12rem;
+    margin-left: 10rem;
+    background-color: red;
+}
+.Cakes a {
+    border: 1px solid;
+    padding: 3px 1.5px;
+    text-decoration: none;
+    color: black;
+}
+/* ===========Footer Styling=============== */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer p {
+    width: 25%;
+    margin: auto;
+}
+footer img {
+    width: 2%;
+    height: auto;
+}
+footer div img {
+    width: 7%;
+    height: auto;
+}
